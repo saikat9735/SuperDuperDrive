@@ -1,6 +1,5 @@
 # Super*Duper*Drive Cloud Storage
 You have to develop the Super*Duper*Drive project. This is just like the products like Google Drive and Dropbox. Here we not only develop the Feature of File Managemengt we also include a personal information management feature in our application and develop the minimum viable product includes with two user-facing features:
-iate them from the competition, and the minimum viable product includes three user-facing features:
 
 1. **Simple File Storage:** Upload/download/remove files
 2. **Note Management:** Add/update/remove text notes
