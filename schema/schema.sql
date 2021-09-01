@@ -27,6 +27,6 @@ CREATE TABLE IF NOT EXISTS FILES (
     contenttype VARCHAR(100),
     filesize VARCHAR(100),
     userid INT,
-    filedata BLOB,
+    file_path VARCHAR(250),
     foreign key (userid) references USERS(userid)
 );
