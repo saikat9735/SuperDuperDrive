@@ -13,7 +13,7 @@
 <body class="p-3 mb-2 bg-light text-black">
     <div class="container justify-content-center w-25 p-3" style="background-color: #eeeeee; margin-top: 5em;">
         <h1 class="display-5">Login</h1>
-        <form action="include/login.inc.php" method="POST">
+        <form action="static/login.inc.php" method="POST">
             <div id="divError" class="alert alert-danger" th:if="${param.error}">
                 Invalid username or password
             </div>
