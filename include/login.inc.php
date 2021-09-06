@@ -7,12 +7,13 @@ if (isset($_POST['submit'])) {
 
     $con = connect_db();
 
+
     //Now follow the codes of the project i provided....
 
-    if ($rec = check_login($con, $email, $password)) {
+    if ($rec = check_login($con, $username, $password)) {
         //Store the email to SESSION.
         session_start();
-        $_SESSION['login_email'] = $email;
+        $_SESSION['login_email'] = $username;
 
         header('location:../profile.php');
     } else {
